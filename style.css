@@ -28,7 +28,6 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-
     position: absolute;
     
 }
@@ -46,7 +45,7 @@ nav ul li a::after{
 }
 
 .h1{
-    font-size: 32px;
+    font-size: 38px;
 }
 p,h2,h3,h4,a{
     font-family: Lyon-Text, Georgia, ui-serif, serif;
@@ -60,7 +59,9 @@ p,h2,h3,h4,a{
     border-bottom: 2px solid dimgrey;
     
 }
-
+a{
+    text-decoration: none;
+}
 
 .skill-img, .links{
     margin-bottom: 40px;
