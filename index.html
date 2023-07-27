@@ -38,6 +38,7 @@
             <div class="profile-pix">
                 <img src="/images/me.jpg" width= "450" height="700">
             </div>
+    <section id="About">
             <div class="about_me">
                 <h3>Hello!!!</h3><p>I am a <b>backend developer</b> with expertise in creating and deploying scalable software solutions. With expertise in backend technologies like programming languages, frameworks and databases, I possess a well-grounded understanding of RESTful APIs, microservices architecture. In addition, I excel in optimizing database performance as well as implementing efficient caching mechanisms.</p>
                 <p>I have had the privilege of working with amazing backend developers, UI/UX designers, data analysts and mobile developer to build a functional and a scalable food and drinks mobile platform (Mealy food and drink ordering app).
@@ -96,22 +97,22 @@
         <div class="myResume">
             <h3>Resume</h3>
             <p>Check out my resume here:</p>
-            <a cstyle="color:#932F6D; font-weight:bold; "href="https://resume.io/r/GRSQena97">Resume</a>
+            <a href="https://resume.io/r/GRSQena97"><img src="/images/resume.png" width= "80" height="80"></a>
         </div>
     </section>
 
     <section id="Social">
         <div class="mySocials">
             <h3 class="container4">Social</h2>
-            <a href="https://twitter.com/motunrayosholol"><img src="/images/twitter.png" width= "100" height="100"></a>
-            <a href="https://www.instagram.com/motunrayosholola1"><img src="/images/instagram.jpg" width= "100" height="100"></a>
-            <a href="www.linkedin.com/in/motunrayo-titi-sholola-ph-d-67614772"><img src="/images/LinkedIn.png" width= "100" height="100"></a>
+            <a href="https://twitter.com/motunrayosholol"><img src="/images/twitter.png" width= "80" height="80"></a>
+            <a href="https://www.instagram.com/motunrayosholola1"><img src="/images/instagram.jpg" width= "80" height="80"></a>
+            <a href="www.linkedin.com/in/motunrayo-titi-sholola-ph-d-67614772"><img src="/images/LinkedIn.png" width= "80" height="80"></a>
         </div>
     </section>
 
     <section id="contact">
         <div class="contact">
-            <h2 class="contact_test">To work together send me an email <img src="/images/pointer.jpg" width= "40" height="30" background-color: #CDCDCD></h2>
+            <h2 class="contact_test">To work together send me an email <img src="/images/pointer.jpg" width= "40" height="30"></h2>
             <div class="name">
                 <form id="contact_form" action="" method="POST" class="clientName">
                     <div class="clientInfo">
@@ -128,7 +129,6 @@
                         <button type="submit" class="btn btn-primary" onclick="sendMail()">Send</button>
                     </div>   
                 </form>
-                <br>
                 <br>
                 <div class="Context">
                     <div class="Copyright">
@@ -174,7 +174,7 @@
                 })
             })
             .catch(error => {console.error(error);
-                    alert("An error occurred while sending the message.");
+                    alert("Message not send.");
         });
     })
      function sendMail(){
