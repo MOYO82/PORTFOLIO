@@ -91,6 +91,7 @@ nav ul li a:hover::after{
 p,h2,h3,h4,a{
     font-family: Lyon-Text, Georgia, ui-serif, serif;
     font-size: 24x;
+    color: black;
 }
 .about_me{
     
@@ -152,11 +153,6 @@ a{
 }
 
 
-
-
-
-
-
 .form-control {
 	padding: 15px 20px 10px;
 	width: 100%;
@@ -212,6 +208,28 @@ img{
  nav .fas{
     display: none;
 }
+.contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: left
+}
+
+.text{
+    font-size: 25px;
+    color:#932F6D;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container-text{
+    margin-left: 50px;  
+    border-bottom: 2px solid dimgrey;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.Proj{
+    margin-left: 50px;
+}
+
+    
  @media only screen and (max-width: 600px){
     *{
         margin: 3px;
@@ -269,8 +287,6 @@ img{
     .about_me p{
         width: 100vw;
     }
-    
-
  }
 
  
